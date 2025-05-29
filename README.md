@@ -1,14 +1,15 @@
 # mail-sink
 
-mail-sink is a utility program that implements a "black hole" function. It listens on the named host (or address) and port. It accepts Simple Mail Transfer Protocol (SMTP) messages from the network and discards them.
+mail-sink is a utility program that implements a "black hole" function.
+It listens on the named host (or address) and port.
+It accepts Simple Mail Transfer Protocol (SMTP) messages from the network and discards them.
+
 Original repo is archived.
 This fork is updated to allow saving of attached files in the current directory.
 
-Written in Go: http://www.golang.org/
-
 Install with:
 
-    go get github.com/agrinchenko/mail-sink
+    go install github.com/agrinchenko/mail-sink@latest
 
 Usage:
 
